@@ -1,0 +1,129 @@
+cutadapt -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT -o /farline/umw_garberlab/human/DC/ChIP-Seq/patient_samples/ChIP_0205/E82_24h_ac.R1.fastq.trimmed.fastq.gz -p /farline/umw_garberlab/human/DC/ChIP-Seq/patient_samples/ChIP_0205/E82_24h_ac.R2.trimmed.fastq.gz /farline/umw_garberlab/human/DC/ChIP-Seq/patient_samples/ChIP_0205/E82_24h_ac.R1.fastq.gz /farline/umw_garberlab/human/DC/ChIP-Seq/patient_samples/ChIP_0205/E82_24h_ac.R2.fastq.gz
+This is cutadapt 1.9 with Python 2.7.9
+Command line parameters: -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT -o /farline/umw_garberlab/human/DC/ChIP-Seq/patient_samples/ChIP_0205/E82_24h_ac.R1.fastq.trimmed.fastq.gz -p /farline/umw_garberlab/human/DC/ChIP-Seq/patient_samples/ChIP_0205/E82_24h_ac.R2.trimmed.fastq.gz /farline/umw_garberlab/human/DC/ChIP-Seq/patient_samples/ChIP_0205/E82_24h_ac.R1.fastq.gz /farline/umw_garberlab/human/DC/ChIP-Seq/patient_samples/ChIP_0205/E82_24h_ac.R2.fastq.gz
+Trimming 2 adapters with at most 10.0% errors in paired-end mode ...
+Finished in 1545.66 s (122 us/read; 0.49 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:         12,671,841
+  Read 1 with adapter:               5,700,659 (45.0%)
+  Read 2 with adapter:               5,146,903 (40.6%)
+Pairs written (passing filters):    12,671,841 (100.0%)
+
+Total basepairs processed: 1,064,434,644 bp
+  Read 1:   532,217,322 bp
+  Read 2:   532,217,322 bp
+Total written (filtered):    623,270,225 bp (58.6%)
+  Read 1:   300,055,412 bp
+  Read 2:   323,214,813 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 5700659 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 1.2%
+  C: 1.0%
+  G: 0.9%
+  T: 0.8%
+  none/other: 96.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	145523	197997.5	0	145523
+4	31679	49499.4	0	31679
+5	5508	12374.8	0	5508
+6	325	3093.7	0	325
+7	184	773.4	0	184
+8	19	193.4	0	19
+9	82	48.3	0	59 23
+10	310	12.1	1	207 103
+11	123	3.0	1	104 19
+12	23	0.8	1	11 12
+13	48	0.2	1	16 32
+14	5	0.0	1	0 5
+15	13	0.0	1	5 8
+16	5	0.0	1	1 4
+17	24	0.0	1	11 13
+18	23	0.0	1	22 1
+20	25	0.0	2	10 6 9
+21	3	0.0	2	0 0 3
+22	59	0.0	2	0 54 5
+23	108	0.0	2	0 84 24
+24	74	0.0	2	0 48 26
+25	73	0.0	2	0 69 4
+26	105	0.0	2	0 99 6
+27	140	0.0	2	0 136 4
+28	336	0.0	2	0 321 15
+29	358	0.0	2	0 337 21
+30	136	0.0	3	0 72 58 6
+31	56	0.0	3	0 3 53
+32	2	0.0	3	0 0 1 1
+33	421	0.0	3	0 395 24 2
+34	121	0.0	3	0 86 1 34
+35	1	0.0	3	0 1
+37	23	0.0	3	0 0 22 1
+38	26063	0.0	3	64 24634 1176 189
+39	952	0.0	3	0 876 70 6
+40	2030	0.0	3	0 1870 136 24
+41	5822	0.0	3	2 4737 801 282
+42	5479857	0.0	3	459 4906113 525991 47294
+
+=== Second read: Adapter 2 ===
+
+Sequence: AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 58; Trimmed: 5146903 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-58 bp: 5
+
+Bases preceding removed adapters:
+  A: 1.1%
+  C: 1.1%
+  G: 1.0%
+  T: 0.9%
+  none/other: 95.9%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	141934	197997.5	0	141934
+4	31139	49499.4	0	31139
+5	6245	12374.8	0	6245
+6	358	3093.7	0	358
+7	1840	773.4	0	1840
+8	73	193.4	0	73
+9	148	48.3	0	61 87
+10	330	12.1	1	148 182
+11	449	3.0	1	97 352
+12	69	0.8	1	3 66
+13	11	0.2	1	2 9
+14	9	0.0	1	1 8
+15	4	0.0	1	2 2
+16	2	0.0	1	1 1
+17	13	0.0	1	4 9
+18	21	0.0	1	21
+20	20	0.0	2	8 2 10
+21	3	0.0	2	1 2
+22	35	0.0	2	3 15 17
+23	102	0.0	2	83 11 8
+24	69	0.0	2	52 13 4
+25	41	0.0	2	1 12 28
+26	90	0.0	2	53 12 25
+27	137	0.0	2	104 26 7
+28	167	0.0	2	38 45 60 24
+29	237	0.0	2	36 51 79 71
+30	76	0.0	3	54 17 1 4
+31	2	0.0	3	1 0 1
+32	2	0.0	3	0 0 0 2
+33	398	0.0	3	281 69 30 18
+34	86	0.0	3	55 14 14 3
+35	1	0.0	3	1
+37	2	0.0	3	0 0 1 1
+38	19168	0.0	3	7836 4337 2840 3144 1011
+39	659	0.0	3	190 183 140 101 45
+40	1594	0.0	4	621 402 256 170 145
+41	3809	0.0	4	1372 916 644 477 400
+42	4937560	0.0	4	4018406 532755 201438 109985 74976

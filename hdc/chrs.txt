@@ -1,0 +1,10 @@
+chr1
+chr1
+chr1
+chr1
+chr1
+chr1 100 101
+chr1 101 105
+chr1 102 106
+chr1 103 108
+chr1 104 109

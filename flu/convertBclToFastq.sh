@@ -1,0 +1,1 @@
+nohup /share/pkg/bcl2fastq/2.17.1.14/bin/bcl2fastq -R /farline/umw_flustore_schiffer/eIF4E_pulldown_RNAseq/17726710 -o /farline/umw_flustore_schiffer/eIF4E_pulldown_RNAseq/fastq_untrimmed --sample-sheet /farline/umw_flustore_schiffer/eIF4E_pulldown_RNAseq/17726710/SampleSheet.csv
